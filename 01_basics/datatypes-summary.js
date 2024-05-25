@@ -36,3 +36,25 @@ console.log(typeof heros);
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive), Heap(Non- Primitive)
+
+let myYoutubename="hiteshchoudharydotcom"
+let anothername = myYoutubename
+anothername="chai aur code"
+console.log(myYoutubename)
+console.log(anothername)
+
+let userOne={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo= userOne
+
+userTwo.email="hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
