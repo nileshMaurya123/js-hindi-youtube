@@ -1,5 +1,5 @@
 const score=400
-console.log(score);
+//console.log(score);
 
 const balance = new Number(100)
 console.log(balance);
@@ -17,10 +17,12 @@ console.log(otherNumber2.toPrecision(3))
 
 const otherNumber3 = 1123.8966
 
-console.log(otherNumber3.toPrecision(3))
+//console.log(otherNumber3.toPrecision(3))
 
 const hundreds = 1000000
-console.log(hundreds.toLocaleString('en-IN'));
+//console.log(hundreds.toLocaleString('en-IN'));
 
 
 //////// Maths ////////////
+
+console.log(Math);
