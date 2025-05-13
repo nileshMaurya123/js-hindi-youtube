@@ -19,3 +19,8 @@ console.log(myCreatedDate.toLocaleString());
 
 // abcd
 console.log(abcd);
+
+let newDate = new Date();
+console.log(newDate);
+console.log(newDate.getMonth());
+console.log(newDate.getMonth());
