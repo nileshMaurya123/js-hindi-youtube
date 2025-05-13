@@ -22,3 +22,13 @@ const newArr = myArrStr.join(); // Joins with commas
 
 console.log(myArr);
 console.log(newArr); // Output: "0,1,2,3,4,5"
+
+console.log(Array.isArray("Hitesh"));
+console.log(Array.from("Hitesh"));
+console.log(Array.from({ name: "hitesh" })); // interesting
+
+let score1 = 100;
+let score2 = 200;
+let score = 300;
+
+console.log(Array.of(score1, score2, score3));
