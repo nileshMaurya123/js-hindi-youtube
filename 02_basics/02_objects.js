@@ -64,4 +64,32 @@ const obj4 = { 5: "a", 6: "b" };
 //const obj3 = Object.assign{}, obj1, obj2, 0bj4)
 
 const obj3 = { ...obj1, ...obj2 };
-console.log(obj3);
+//console.log(obj3);
+
+// Objects Destructuring and JSON API
+
+const bioData = {
+  name: "vinod",
+  age: "26",
+  deg: "MCS",
+};
+
+let { name, age, deg } = bioData;
+
+console.log(`my name is ${name}. my age is ${age}. my deg is ${deg}`);
+
+// To Fetch API in Javascript
+
+fetch("https://www.freepublicapis.com/api/random")
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error("Network response was not ok");
+    }
+    return response.json();
+  })
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((error) => {
+    console.error("Fetch error:", error);
+  });
