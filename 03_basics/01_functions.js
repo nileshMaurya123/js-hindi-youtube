@@ -14,6 +14,23 @@ function addTwoNumbers(number1, number2) {
 }
 
 function greet(name) {
-  return `Hello, ${name}!`;
+  if (name === undefined) {
+    console.log("Please enter a username");
+  }
+  return `Hello, ${name} just logged in`;
 }
-console.log(greet("Meeta"));
+console.log(greet("Alice"));
+
+// functioin with objects
+
+function Book(type, author) {
+  this.type = type;
+  this.author = author;
+  this.getDetails = function () {
+    return this.type + " written by " + this.author;
+  };
+}
+
+var book = new Book("Fiction", "Peter King");
+
+console.log(book.getDetails());
