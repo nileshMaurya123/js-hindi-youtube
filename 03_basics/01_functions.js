@@ -12,3 +12,8 @@ function addTwoNumbers(number1, number2) {
   console.log("Hitesh");
   return result;
 }
+
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+console.log(greet("Meeta"));
