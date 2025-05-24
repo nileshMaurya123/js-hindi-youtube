@@ -26,3 +26,5 @@ console.log(localVar); // ❌ Error: localVar is not defined
 }
 
 console.log(blockVar); // ❌ Error: blockVar is not defined
+
+// Scope level and Mini Hosting
