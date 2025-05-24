@@ -34,22 +34,23 @@ function one() {
 
   function two() {
     const website = "youtube";
-    console.log(username);
+    console.log(username); // ✅ Can access `username` due to lexical scoping
   }
-  console.log(website);
 
-  two();
+  // console.log(website); ❌ Error: `website` is not defined in this scope
+
+  two(); // ✅ Calls inner function
 }
 
-//one();
+one(); // ✅ Calls outer function
 
 if (true) {
   const username = "hitesh";
   if (username === "hitesh") {
     const website = "youtube";
-    console.log(username + website);
+    console.log(username + website); // ✅ Both are accessible here
   }
-  console.log(website);
+  // console.log(website); ❌ Error: `website` is not defined outside inner if-block
 }
 
-console.log(username);
+// console.log(username); ❌ Error: `username` is block-scoped and not accessible here
