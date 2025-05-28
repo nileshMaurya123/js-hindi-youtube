@@ -1,0 +1,18 @@
+  body {
+      background-color: pink;
+    }
+
+    #heading {
+      color: red;
+      background-color: yellow;
+    }
+
+    .heading-class {
+      background-color: orangered;
+      color: green;
+    }
+
+    button {
+      background-color: blue;
+      color: white;
+    }
