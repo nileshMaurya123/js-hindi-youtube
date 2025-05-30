@@ -14,3 +14,5 @@ document.querySelector("button").addEventListener("click", () => {
 
   document.getElementById("heading").style.backgroundColor = "lightgreen";
 });
+
+document.getElementById("demo").innerHTML = "Hello World!";
