@@ -1,3 +1,9 @@
+// DOM Manipulation
+
+// GetElementById()
+// GetElementByClassName()
+// GetElementsBy
+
 console.log("hello");
 alert("Welcome to coding");
 
@@ -15,4 +21,5 @@ document.querySelector("button").addEventListener("click", () => {
   document.getElementById("heading").style.backgroundColor = "lightgreen";
 });
 
-document.getElementById("demo").innerHTML = "Hello World!";
+document.getElementById("demo").innerHTML =
+  "Let's Learn About DOM concepts in detail.";
